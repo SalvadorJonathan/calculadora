@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(pexels-keira-burton-6623827.jpg);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: "Oswald", sans-serif;
+}
+
+.calculadora {
+  position: absolute;
+  background-color: rgba(229, 253, 13, 0.929);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 35px;
+  padding: 25px;
+  box-shadow: 0 10px 35px rgb(51, 125, 44);
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 3px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgba(145, 145, 145, 0.1);
+}
+
+.btn-verde {
+  color: #16df27;
+}
+
+.btn-verde-red {
+  background-color: #16df27;
+}
+
+.btn-verde-red:hover {
+  background-color: #16df27;
+}
+
+#resultado {
+  width: 230px;
+  height: 40px;
+  margin: 8px;
+  background-color: white;
+  font-size: 25px;
+  color: black;
+  text-align: right;
+}
